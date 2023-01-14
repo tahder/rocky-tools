@@ -733,6 +733,9 @@ collect_system_info () {
     addl_provide_removes=(
         redhat-release
         redhat-release-eula
+        fedora-release-common
+        fedora-release-identity-basic
+        fedora-repos-modular
     )
 
     # Check to make sure that we don't already have a full or partial

@@ -721,7 +721,7 @@ collect_system_info () {
     declare -g -A pkg_map provides_pkg_map
     declare -g -a addl_provide_removes addl_pkg_removes
     provides_pkg_map=(
-        [rocky-backgrounds]=fedora-backgrounds
+        [rocky-backgrounds]="f${SUPPORTED_MAJOR_FEDORA}-backgrounds"
         [rocky-indexhtml]=
         [rocky-repos]="$baseos_filename"
         [rocky-logos]=fedora-logos

@@ -136,7 +136,7 @@ shopt -s nullglob
 
 SUPPORTED_MAJOR="8"
 SUPPORTED_MAJOR_FEDORA="36"
-SUPPORTED_PLATFORM="platform:f$SUPPORTED_MAJOR"
+SUPPORTED_PLATFORM="platform:f$SUPPORTED_MAJOR_FEDORA"
 ARCH=$(arch)
 
 gpg_key_url="https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-rockyofficial"

@@ -736,6 +736,8 @@ collect_system_info () {
         fedora-release-common
         fedora-release-identity-basic
         fedora-repos-modular
+	alternatives
+	initscripts-service
     )
 
     # Check to make sure that we don't already have a full or partial

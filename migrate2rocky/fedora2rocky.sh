@@ -738,6 +738,7 @@ collect_system_info () {
         fedora-repos-modular
 	alternatives
 	initscripts-service
+	systemd-resolved
     )
 
     # Check to make sure that we don't already have a full or partial
